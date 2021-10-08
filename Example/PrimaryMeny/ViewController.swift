@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  PrimaryMeny
+//  PrimaryMeny_Example
 //
-//  Created by nanobodyy on 10/08/2021.
-//  Copyright (c) 2021 nanobodyy. All rights reserved.
+//  Created by Гурген on 08.10.2021.
+//  Copyright © 2021 CocoaPods. All rights reserved.
 //
 
 import UIKit
@@ -12,13 +12,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
     }
+    */
 
 }
-

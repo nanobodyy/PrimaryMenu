@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D90223F45796178052F8DDBD80147F0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFAAFDBB2DB226830266E3218D3FEB /* ReplaceMe.swift */; };
 		544495E11118BFE7B234C0F02192128D /* Pods-PrimaryMeny_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF097459512C6281EEBEF1D1E613F9E /* Pods-PrimaryMeny_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76A924EA992D5EBBC81FDE5EAE6C77B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7DC8DBC4676EF94A265AB9A2ED10109B /* PrimaryMeny-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86860B93ABD61CF1AA9ED77C4C92FA75 /* PrimaryMeny-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85D6EC9A8DFF526D3159EAAB87B9779E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		99AA253D27103EB700953D09 /* PrimaryMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA253C27103EB700953D09 /* PrimaryMenu.swift */; };
+		99AA254527103ECF00953D09 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99AA254227103ECF00953D09 /* Montserrat-Bold.ttf */; };
+		99AA254627103ECF00953D09 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99AA254327103ECF00953D09 /* Montserrat-SemiBold.ttf */; };
+		99AA254727103ECF00953D09 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99AA254427103ECF00953D09 /* Montserrat-ExtraBold.ttf */; };
 		AAB73EEE1AD9931FC4FB48ECEB0B16B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CDAFA91B34C428F8E819B7C6BB1C6068 /* Pods-PrimaryMeny_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B25C5822A120FFCE8AFE9F6833A9B /* Pods-PrimaryMeny_Tests-dummy.m */; };
 		D3D1C5E4F87A1938D265BA858C8D38D6 /* Pods-PrimaryMeny_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90725397889A70AF73F2F1906B79F43E /* Pods-PrimaryMeny_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,11 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02284A245C15DA3DCE750164C95D6B41 /* PrimaryMeny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PrimaryMeny.framework; path = PrimaryMeny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		116BC6F30320EE75E69BB3A6BE2FD978 /* PrimaryMeny.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PrimaryMeny.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		02284A245C15DA3DCE750164C95D6B41 /* PrimaryMeny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrimaryMeny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		116BC6F30320EE75E69BB3A6BE2FD978 /* PrimaryMeny.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PrimaryMeny.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		12FFB266C691382A2447C611DFAF4E14 /* PrimaryMeny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrimaryMeny.release.xcconfig; sourceTree = "<group>"; };
 		1760CFEA068EC7FB220B8F088D7887A6 /* Pods-PrimaryMeny_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrimaryMeny_Tests.modulemap"; sourceTree = "<group>"; };
-		2010490BACFD660C251AF213332E0997 /* Pods_PrimaryMeny_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PrimaryMeny_Tests.framework; path = "Pods-PrimaryMeny_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2010490BACFD660C251AF213332E0997 /* Pods_PrimaryMeny_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimaryMeny_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A24F2299F0D4C02B536C7FF32D39D3 /* Pods-PrimaryMeny_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrimaryMeny_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		42C616487A2E0A54D67150487D34B438 /* Pods-PrimaryMeny_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrimaryMeny_Example-Info.plist"; sourceTree = "<group>"; };
 		48BAD0F3B119BAF4F878ABEC8815FBD2 /* PrimaryMeny-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PrimaryMeny-Info.plist"; sourceTree = "<group>"; };
@@ -53,21 +56,24 @@
 		77AD59ACC93418FCDD4F37A1F59A2835 /* Pods-PrimaryMeny_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrimaryMeny_Example.modulemap"; sourceTree = "<group>"; };
 		7FDBBA715F3F53DF39473A92C50165E9 /* Pods-PrimaryMeny_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrimaryMeny_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		86860B93ABD61CF1AA9ED77C4C92FA75 /* PrimaryMeny-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrimaryMeny-umbrella.h"; sourceTree = "<group>"; };
-		8CAFAAFDBB2DB226830266E3218D3FEB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PrimaryMeny/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		90725397889A70AF73F2F1906B79F43E /* Pods-PrimaryMeny_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrimaryMeny_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99AA253C27103EB700953D09 /* PrimaryMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryMenu.swift; sourceTree = "<group>"; };
+		99AA254227103ECF00953D09 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		99AA254327103ECF00953D09 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		99AA254427103ECF00953D09 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5BCDC15FCA100B342F60AA1644B605E /* PrimaryMeny.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PrimaryMeny.modulemap; sourceTree = "<group>"; };
 		AB0B25C5822A120FFCE8AFE9F6833A9B /* Pods-PrimaryMeny_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrimaryMeny_Tests-dummy.m"; sourceTree = "<group>"; };
 		B73CF51C895BB6ACA3D75470D05957B6 /* Pods-PrimaryMeny_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrimaryMeny_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C37AEB49FFEE3F39A50DB307CE9EBEEA /* PrimaryMeny-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrimaryMeny-dummy.m"; sourceTree = "<group>"; };
 		C649B1556B15C5F48C41318E9C9C99C3 /* Pods-PrimaryMeny_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrimaryMeny_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C7778491D0CF672685F2DAADEADE535F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C7778491D0CF672685F2DAADEADE535F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CB46E5D0E9E3D905F56A70CC648200CE /* Pods-PrimaryMeny_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrimaryMeny_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DC7222D979C8C80AE2881EB5A02CDA44 /* PrimaryMeny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrimaryMeny.debug.xcconfig; sourceTree = "<group>"; };
 		DDE7A99F82B10BC8C4E1781CC4DB226D /* Pods-PrimaryMeny_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrimaryMeny_Tests-Info.plist"; sourceTree = "<group>"; };
-		DF9777FEF38BA2E2C478B7284E9FA111 /* Pods_PrimaryMeny_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PrimaryMeny_Example.framework; path = "Pods-PrimaryMeny_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9777FEF38BA2E2C478B7284E9FA111 /* Pods_PrimaryMeny_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimaryMeny_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF097459512C6281EEBEF1D1E613F9E /* Pods-PrimaryMeny_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrimaryMeny_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F23BCB7C90A6C837BD31DC05AE60F803 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F23BCB7C90A6C837BD31DC05AE60F803 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F3C23364C34EEA0EECEEFE12E1427130 /* Pods-PrimaryMeny_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrimaryMeny_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F3CF83E592725B7BF831D4D1B1852F52 /* PrimaryMeny-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrimaryMeny-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +117,7 @@
 		0E56BB87E829AA45817096F657634338 /* PrimaryMeny */ = {
 			isa = PBXGroup;
 			children = (
-				8CAFAAFDBB2DB226830266E3218D3FEB /* ReplaceMe.swift */,
+				99AA253B27103E1800953D09 /* Source */,
 				5F7455648C301D05F351E25B19C1C320 /* Pod */,
 				E6FEC1823189188F4003C9E2C88F4192 /* Support Files */,
 			);
@@ -171,6 +177,25 @@
 			);
 			name = "Pods-PrimaryMeny_Example";
 			path = "Target Support Files/Pods-PrimaryMeny_Example";
+			sourceTree = "<group>";
+		};
+		99AA253B27103E1800953D09 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				99AA253C27103EB700953D09 /* PrimaryMenu.swift */,
+				99AA254127103ECF00953D09 /* Fonts */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		99AA254127103ECF00953D09 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				99AA254227103ECF00953D09 /* Montserrat-Bold.ttf */,
+				99AA254327103ECF00953D09 /* Montserrat-SemiBold.ttf */,
+				99AA254427103ECF00953D09 /* Montserrat-ExtraBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -316,7 +341,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					77E7714DBBF90DFA43B83196E03C12E6 = {
+						LastSwiftMigration = 1220;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,6 +373,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99AA254627103ECF00953D09 /* Montserrat-SemiBold.ttf in Resources */,
+				99AA254727103ECF00953D09 /* Montserrat-ExtraBold.ttf in Resources */,
+				99AA254527103ECF00953D09 /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB093D588FD43972AF595DAEA4F71BA0 /* PrimaryMeny-dummy.m in Sources */,
-				4D90223F45796178052F8DDBD80147F0 /* ReplaceMe.swift in Sources */,
+				99AA253D27103EB700953D09 /* PrimaryMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -487,7 +520,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PrimaryMeny_Example/Pods-PrimaryMeny_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PrimaryMeny_Example/Pods-PrimaryMeny_Example.modulemap";
@@ -509,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC7222D979C8C80AE2881EB5A02CDA44 /* PrimaryMeny.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -520,7 +554,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PrimaryMeny/PrimaryMeny-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PrimaryMeny/PrimaryMeny-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PrimaryMeny/PrimaryMeny.modulemap";
 				PRODUCT_MODULE_NAME = PrimaryMeny;
@@ -528,7 +562,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -539,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FFB266C691382A2447C611DFAF4E14 /* PrimaryMeny.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -550,7 +586,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PrimaryMeny/PrimaryMeny-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PrimaryMeny/PrimaryMeny-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PrimaryMeny/PrimaryMeny.modulemap";
 				PRODUCT_MODULE_NAME = PrimaryMeny;
@@ -558,7 +594,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -581,7 +617,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PrimaryMeny_Tests/Pods-PrimaryMeny_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PrimaryMeny_Tests/Pods-PrimaryMeny_Tests.modulemap";
@@ -614,7 +650,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PrimaryMeny_Example/Pods-PrimaryMeny_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PrimaryMeny_Example/Pods-PrimaryMeny_Example.modulemap";
@@ -681,13 +717,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -708,7 +743,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PrimaryMeny_Tests/Pods-PrimaryMeny_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PrimaryMeny_Tests/Pods-PrimaryMeny_Tests.modulemap";
