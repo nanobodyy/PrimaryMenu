@@ -1,0 +1,16 @@
+PODS:
+  - PrimaryMeny (0.1.0)
+
+DEPENDENCIES:
+  - PrimaryMeny (from `../`)
+
+EXTERNAL SOURCES:
+  PrimaryMeny:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PrimaryMeny: 91b67271f6256a497c5f57ae22f18fd00d7c7136
+
+PODFILE CHECKSUM: 48bd9a283be215f47e3f3e2e734209408c5ff363
+
+COCOAPODS: 1.10.2

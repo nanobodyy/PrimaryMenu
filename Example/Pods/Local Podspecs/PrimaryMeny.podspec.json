@@ -1,0 +1,22 @@
+{
+  "name": "PrimaryMeny",
+  "version": "0.1.0",
+  "summary": "A short description of PrimaryMeny.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nanobodyy/PrimaryMeny",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nanobodyy": "gurgenfake@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nanobodyy/PrimaryMeny.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PrimaryMeny/Classes/**/*"
+}

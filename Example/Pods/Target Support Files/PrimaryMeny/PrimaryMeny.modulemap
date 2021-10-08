@@ -1,0 +1,6 @@
+framework module PrimaryMeny {
+  umbrella header "PrimaryMeny-umbrella.h"
+
+  export *
+  module * { export * }
+}
