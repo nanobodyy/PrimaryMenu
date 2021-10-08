@@ -17,7 +17,7 @@ pod 'PrimaryMeny'
 
 ## Author
 
-nanobodyy, gurgenfake@gmail.com
+nanobodyy
 
 ## License
 
