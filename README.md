@@ -15,10 +15,11 @@ it, simply add the following line to your Podfile:
 pod 'PrimaryMeny'
 ```
 
+## License
+
+Initialize and use the function configure(with: )
+
 ## Author
 
 nanobodyy
 
-## License
-
-PrimaryMeny is available under the MIT license. See the LICENSE file for more info.
